@@ -50,7 +50,7 @@ The nf-core/spid pipeline comes with documentation about the pipeline, found in 
 
 ## Credits
 
-czbiohub/nextflow-spid was originally written by Samantha Hao.
+samlhao/nextflow-spid was originally written by Samantha Hao.
 
 ## Contributions and Support
 
