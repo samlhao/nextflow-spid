@@ -31,7 +31,8 @@ for k, v in regexes.items():
         results[k] = False
 
 # Remove software set to false in results
-for k in results:
+results_copy = results.copy()
+for k in results_copy:
     if not results[k]:
         del(results[k])
 
