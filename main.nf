@@ -135,7 +135,7 @@ if (params.se_reads) {
 else {
     Channel
         .empty()
-        .into { se_read_files_fastqc; se_read_files_trimming; se_amr_results }
+        .into { se_read_files_fastqc; se_read_files_trimming; se_amr_results; se_mlst_results }
 }
 
 if (params.pe_reads) {
